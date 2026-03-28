@@ -38,20 +38,23 @@
 
 ---
 
-<!-- About Me Section in YAML Style -->
+<!-- About Me Section in JS Style -->
 <h2>👨‍💻 &nbsp;About Me</h2>
 
-```yaml
-name: Pranay Gulab Soyam
-pronouns: he/him
-located_in: Pune, Maharashtra, India
-education:
-  degree: B.Tech in Information Technology
-  university: Vishwakarma Institute of Information Technology (VIIT), Kondhwa, Pune
-  year: 3rd Year
-current_status: Student | Exploring & Building
-email: pranaysoyam1265@gmail.com
-motto: "Code. Learn. Repeat. 🔁"
+```js
+const pranay = {
+    name: "Pranay Gulab Soyam",
+    pronouns: "he/him",
+    location: "Pune, Maharashtra, India",
+    education: {
+        degree: "B.Tech in Information Technology",
+        university: "VIIT, Kondhwa, Pune",
+        year: "3rd Year"
+    },
+    currentStatus: "Student | Exploring & Building",
+    email: "pranaysoyam1265@gmail.com",
+    motto: "Code. Learn. Repeat. 🔁"
+};
 ```
 
 <br>
